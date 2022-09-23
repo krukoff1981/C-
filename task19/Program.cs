@@ -20,15 +20,18 @@ switch (number)
     {
         if(b == d)
         {
+            Console.WriteLine("Является ли это число полиномом?");
             Console.WriteLine($"{numbermem} => да");
         }
         else
         {
+            Console.WriteLine("Является ли это число полиномом?");
             Console.WriteLine($"{numbermem} => нет");
         }
     }
     else
     {
+        Console.WriteLine("Является ли это число полиномом?");
         Console.WriteLine($"{numbermem} => нет");
     }
     break;
