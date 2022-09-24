@@ -6,33 +6,15 @@ switch (number)
     Console.WriteLine("число не пятизначное");
     break;
     case < 100000:
-    int numbermem = number;
-    int a = number % 10;
-    number = number / 10;
-    int b = number % 10;
-    number = number / 10;
-    int c = number % 10;
-    number = number / 10;
-    int d = number % 10;
-    number = number / 10;
-    int e = number % 10;
-    if(a == e)
+    if(number / 10000 == number % 10 && number / 1000 % 10 == number / 10 % 10)
     {
-        if(b == d)
-        {
-            Console.WriteLine("Является ли это число полиномом?");
-            Console.WriteLine($"{numbermem} => да");
-        }
-        else
-        {
-            Console.WriteLine("Является ли это число полиномом?");
-            Console.WriteLine($"{numbermem} => нет");
-        }
+        Console.WriteLine("Является ли это число полиномом?");
+        Console.WriteLine($"{number} => да");
     }
     else
     {
         Console.WriteLine("Является ли это число полиномом?");
-        Console.WriteLine($"{numbermem} => нет");
+        Console.WriteLine($"{number} => нет");
     }
     break;
     default:
