@@ -38,3 +38,6 @@ int[] array = new int[10];
 FillArray(array);
 PrintArray(FillArray(array));
 Console.WriteLine("Количество четных чисел в массиве: " + NumberOfEven(array));
+
+
+
