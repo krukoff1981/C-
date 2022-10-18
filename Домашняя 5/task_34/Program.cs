@@ -1,4 +1,7 @@
-﻿int[] FillArray(int[] array)
+﻿// Задайте массив заполненный случайными положительными трёхзначными числами.
+// Напишите программу, которая покажет количество чётных чисел в массиве.
+
+int[] FillArray(int[] array)
 {
     Random rnd = new Random();
     int len = array.Length;
